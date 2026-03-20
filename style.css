@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: #f3f5f7;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-container {
+  min-height: 620px;
+  width: 360px;
+  background: #0f172a;
+  border-radius: 24px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator-header {
+  margin-bottom: 16px;
+}
+
+.app-title {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #94a3b8;
+}
+
+.form-card {
+  background: #c9f3ea;
+  border-radius: 20px;
+  padding: 20px;
+  flex: 1;
+}
+
+.form-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.form-row label {
+  font-size: 13px;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.form-row input,
+.form-row select {
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+}
+
+.gender-group {
+  display: flex;
+  gap: 10px;
+}
+
+.gender-btn {
+  flex: 1;
+  height: 42px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  background: #e5f7f3;
+  color: #0f172a;
+  cursor: pointer;
+}
+
+.gender-btn.active {
+  background: #2fb49a;
+  color: #ffffff;
+}
+
+.primary-btn {
+  height: 46px;
+  border-radius: 14px;
+  border: none;
+  background: #2fb49a;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.calculator-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4px;
+}
+
+.reset-btn {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.result-icon {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.result-title {
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.calories {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 14px;
+}
+
+.calories small {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.result-text {
+  text-align: center;
+  font-size: 13px;
+  color: #334155;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.calorie-breakdown {
+  background: #e5f7f3;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.breakdown-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #0f172a;
+}
+
+.breakdown-row + .breakdown-row {
+  margin-top: 8px;
+}
+
+.back-btn {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.screen-2 .form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 28px 24px;
+}
+
+.screen-2 .primary-btn {
+  width: 70%;
+  margin: 24px auto 0;
+  display: block;
+}
